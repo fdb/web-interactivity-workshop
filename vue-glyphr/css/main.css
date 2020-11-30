@@ -76,7 +76,11 @@ header h1 {
 }
 
 .glyphs .glyph:nth-child(even) {
-  background: var(--green-200);
+  background: var(--green-400);
+}
+
+.glyphs .glyph.active {
+  background-color: var(--teal-500);
 }
 
 /**** PREVIEW ****/
