@@ -60,7 +60,7 @@ header h1 {
 
 .glyphs {
   display: grid;
-  grid-template-columns: repeat(10, 65px);
+  grid-template-columns: repeat(26, 65px);
   overflow-x: auto;
 }
 

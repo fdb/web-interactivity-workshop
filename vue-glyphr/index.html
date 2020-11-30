@@ -10,23 +10,16 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="css/main.css" />
+    <script src="https://unpkg.com/vue@next"></script>
   </head>
   <body>
     <div class="app">
       <header><h1>Glyphr</h1></header>
       <div class="glyphs">
-        <div class="glyph">A</div>
-        <div class="glyph">B</div>
-        <div class="glyph">C</div>
-        <div class="glyph">D</div>
-        <div class="glyph">E</div>
-        <div class="glyph">F</div>
-        <div class="glyph">G</div>
-        <div class="glyph">H</div>
-        <div class="glyph">I</div>
+        <div class="glyph" v-for="glyph in glyphs" @click="currentGlyph=glyph">{{ glyph }}</div>
       </div>
       <div class="preview">
-        <div class="large">Q</div>
+        <div class="large">{{currentGlyph}}</div>
       </div>
       <div class="styles">
         <div class="style active">Regular</div>
@@ -34,5 +27,6 @@
         <div class="style">Italic</div>
       </div>
     </div>
+    <script src="./js/main.js"></script>
   </body>
 </html>
