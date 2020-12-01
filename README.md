@@ -10,9 +10,15 @@ Each project is set up as an exercise, with a "start" and "end" folder.
 
 Introduction project.
 
+Concepts:
+- [Setting Up](https://v3.vuejs.org/guide/installation.html)
+- [Introduction](https://v3.vuejs.org/guide/introduction.html)
+- [Methods](https://v3.vuejs.org/guide/data-methods.html)
+- [Computed Properties](https://v3.vuejs.org/guide/computed.html)
+
 ## Glyphr
 
-Show the preview of different letters.
+Show a preview of the different letters in a font.
 
 ![Glyphr](https://raw.githubusercontent.com/fdb/web-interactivity-workshop/master/.github/glyphr.png)
 
