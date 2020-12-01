@@ -111,6 +111,7 @@ div.row input {
   font-family: inherit;
   font-size: 24px;
   outline: none;
+  color: var(--teal-700);
 }
 
 div.row input:focus {
@@ -139,6 +140,8 @@ div.row span.letters {
   display: flex;
   place-content: center;
   border-bottom: 4px solid var(--teal-300);
+  cursor: pointer;
+  user-select: none;
 }
 
 .style input {
@@ -199,6 +202,11 @@ div.row span.letters {
 .price-row .price {
   font-size: 24px;
   color: var(--teal-800);
+}
+
+.price-row.small {
+  color: var(--teal-300);
+  margin-top: -10px;
 }
 
 .buy {
