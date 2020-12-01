@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Font Editor</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,900;1,400;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/main.css" />
+    <script src="https://unpkg.com/vue@next"></script>
+  </head>
+  <body>
+    <div class="app">
+      <header>
+        <h1>Glyphr</h1>
+      </header>
+      <div class="glyphs">
+        <div
+          class="glyph"
+          v-for="glyph in glyphNames"
+          @click="currentGlyph=glyph"
+          :class="{ active: glyph === currentGlyph }"
+        >
+          {{ glyph }}
+        </div>
+      </div>
+      <div class="preview"></div>
+      <div class="controls">
+        Grid Size
+        <input type="range" min="10" max="100" step="10" />
+        50
+      </div>
+    </div>
+    <script src="js/main.js"></script>
+  </body>
+</html>
