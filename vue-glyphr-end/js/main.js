@@ -32,6 +32,7 @@ const app = Vue.createApp({
     return {
       glyphs: GLYPHS,
       currentGlyph: "Q",
+      currentStyle: "regular",
     };
   },
 });

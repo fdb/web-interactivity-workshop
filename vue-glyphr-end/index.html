@@ -26,12 +26,12 @@
         </div>
       </div>
       <div class="preview">
-        <div class="large">{{currentGlyph}}</div>
+        <div class="large" :class="currentStyle">{{ currentGlyph }}</div>
       </div>
       <div class="styles">
-        <div class="style active">Regular</div>
-        <div class="style">Bold</div>
-        <div class="style">Italic</div>
+        <div class="style" :class="{ active: currentStyle === 'regular' }" @click="currentStyle='regular'">Regular</div>
+        <div class="style" :class="{ active: currentStyle === 'black' }" @click="currentStyle='black'">Black</div>
+        <div class="style" :class="{ active: currentStyle === 'italic' }" @click="currentStyle='italic'">Italic</div>
       </div>
     </div>
     <script src="./js/main.js"></script>

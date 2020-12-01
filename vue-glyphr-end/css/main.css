@@ -44,7 +44,7 @@ body {
 /**** HEADER ****/
 
 header {
-  background: var(--green-500);
+  background: var(--teal-700);
   color: white;
   display: grid;
   align-items: center;
@@ -93,6 +93,14 @@ header h1 {
 
 .preview .large {
   font-size: 200px;
+}
+
+.preview .italic {
+  font-style: oblique;
+}
+
+.preview .black {
+  font-weight: 900;
 }
 
 /**** STYLES ****/
