@@ -2,7 +2,7 @@
 
 We show how to use [Vue.js](https://v3.vuejs.org/) to write interactive web apps.
 
-Design for this app are on [Figma](https://www.figma.com/file/1q1ScDHj9CHk94jZSnxIft/Web-Interactivity-Workshop)
+Designs for this app are on [Figma](https://www.figma.com/file/1q1ScDHj9CHk94jZSnxIft/Web-Interactivity-Workshop).
 
 Each project is set up as an exercise, with a "start" and "end" folder.
 
